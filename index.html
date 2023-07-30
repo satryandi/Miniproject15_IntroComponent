@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Intro component with sign up form - Frontend Mentor">
+    <meta name="keywords" content="Intro component with sign up form,  Frontend Mentor">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <title>Intro component with sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- Info Section -->
+        <section class="info-section">
+
+            <h1> Learn to code by watching others</h1>
+            <p> See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+                but understanding how developers think is invaluable.</p>
+        </section>
+
+        <section class="form-section">
+
+            <button class="sales-btn"> Try it free 7 days <span>then $20/mo. thereafter</span>
+            </button>
+
+            <!-- Form -->
+            <form class="main-form">
+                <!-- Username-->
+                <div class="input__wrapper">
+                    <input class="first__name" id="first__name" type="text" placeholder="First Name">
+                    <div class="first__name-error"></div>
+                    <label for="first__name" class="first__name-label"></label>
+                </div>
+
+                <!-- Last Name -->
+                <div class="input__wrapper">
+                    <input class="last__name" type="text" placeholder="Last Name">
+                    <div class="last__name-error"></div>
+                    <label for="last__name" class="last__name-label"></label>
+                </div>
+
+                <!-- Email -->
+                <div class="input__wrapper">
+                    <input class="email" type="email" placeholder="Email Address">
+                    <div class="email-error"></div>
+                    <label for="email" class="email-label"></label>
+                </div>
+
+                <!-- Password -->
+                <div class="input__wrapper">
+                    <input class="password" type="password" placeholder="Password">
+                    <div class="password-error"></div>
+                    <label for="password" class="password-label"></label>
+                </div>
+
+                <!-- Button -->
+                <div class="input__wrapper">
+                    <button class="formsubmit" id="formsubmit" type="submit">Claim your free trial</button>
+                    <label for="formsubmit" class="success-msg"></label>
+                </div>
+                <label class="tnc" for="formsubmit"> By clicking the button, you are agreeing to our <a href="">Terms
+                        and
+                        Services</a>
+                </label>
+            </form>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
